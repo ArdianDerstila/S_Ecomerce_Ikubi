@@ -1,0 +1,102 @@
+﻿@using eCommerce.Data.Utils.PartialPermissions
+
+@model eCommerce.Web.Models.ProductModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-sm-3">
+        <div class="left-sidebar">
+            @await Html.PartialAsync("_CategoriesPartial", Model.Categories)
+        </div>
+    </div>
+
+    <div class="col-sm-9 padding-right">
+        <div class="product-details">
+            <!--product-details-->
+            <div class="col-sm-5">
+                <div class="view-product">
+                    <img src="~/images/product-details/2.jpg" alt="" />
+                    <h3>ZOOM</h3>
+                </div>
+                <div id="similar-product" class="carousel slide" data-ride="carousel">
+
+
+
+                    <!-- Controls -->
+                    <a class="left item-control" href="#similar-product" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="right item-control" href="#similar-product" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-sm-7">
+                <div class="product-information">
+                    <!--/product-information-->
+                    <h2>@Model.Product.Title</h2>
+                    <p>Web ID: 1089772</p>
+                    <img src="images/product-details/rating.png" alt="" />
+                    <span>
+                        <span>$@Model.Product.Price</span>
+                        <label>Quantity:</label>
+                        <input type="text" value="3" />
+                        <button type="button" class="btn btn-fefault cart">
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to cart
+                        </button>
+                    </span>
+                    <p><b>Availability:</b> In Stock</p>
+                    <a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
+                </div><!--/product-information-->
+            </div>
+        </div><!--/product-details-->
+        <div class="category-tab shop-details-tab">
+            <!--category-tab-->
+            <div class="col-sm-12">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#reviews" data-toggle="tab">Reviews (5)</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+
+                <div class="tab-pane fade active in" id="reviews">
+                    <div class="col-sm-12">
+
+                        @foreach (var item in Model.Comments)
+                        {
+                            <ul>
+                                <li><a href=""><i class="fa fa-user"></i>@item.UserName</a></li>
+                                <li><a href=""><i class="fa fa-clock-o"></i>@item.CreteDate.ToString("HH:mm")</a></li>
+                                <li><a href=""><i class="fa fa-calendar-o"></i>@item.CreteDate.ToString("dd/MM/yyyy")</a></li>
+                            </ul>
+                            <p>@item.Description</p>
+
+                        }
+
+                        @if ((await AuthorizationService.AuthorizeAsync(User, Permissions.Comment.Add)).Succeeded)
+                        {
+                            <p><b>Write Your Review</b></p>
+
+                            <form action="#">
+                                <textarea rows="4" name=""></textarea>
+                                <button type="button" class="btn btn-default pull-right">
+                                    Submit
+                                </button>
+                            </form>
+                        }
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div><!--/category-tab-->
+
+
+    </div>
+</div>

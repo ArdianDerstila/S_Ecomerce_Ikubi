@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Repository\\eCommerce.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Data\\eCommerce.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Data\\eCommerce.Data.csproj",
+        "projectName": "eCommerce.Data",
+        "projectPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Data\\eCommerce.Data.csproj",
+        "packagesPath": "C:\\Users\\Anonymous\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anonymous\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Entity\\eCommerce.Entity.csproj": {
+                "projectPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Entity\\eCommerce.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Entity\\eCommerce.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Entity\\eCommerce.Entity.csproj",
+        "projectName": "eCommerce.Entity",
+        "projectPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Entity\\eCommerce.Entity.csproj",
+        "packagesPath": "C:\\Users\\Anonymous\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anonymous\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Repository\\eCommerce.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Repository\\eCommerce.Repository.csproj",
+        "projectName": "eCommerce.Repository",
+        "projectPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Repository\\eCommerce.Repository.csproj",
+        "packagesPath": "C:\\Users\\Anonymous\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anonymous\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Data\\eCommerce.Data.csproj": {
+                "projectPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Data\\eCommerce.Data.csproj"
+              },
+              "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Entity\\eCommerce.Entity.csproj": {
+                "projectPath": "C:\\Users\\Anonymous\\Desktop\\SimpleEcommerce\\eCommerce.Web\\eCommerce.Entity\\eCommerce.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

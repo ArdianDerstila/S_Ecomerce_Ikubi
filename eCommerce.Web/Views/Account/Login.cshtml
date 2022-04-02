@@ -1,0 +1,35 @@
+﻿@model eCommerce.Web.Models.LoginRegisterModel
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-1">
+        <div class="login-form">
+            <!--login form-->
+            <h2>Login to your account</h2>
+            <form asp-action="Login" asp-controller="Account">
+                <input type="text" asp-for="Login.Username" placeholder="Name" />
+                <input type="password" asp-for="Login.Password" placeholder="Password"/>
+   
+                <button type="submit" class="btn btn-default">Login</button>
+            </form>
+        </div><!--/login form-->
+    </div>
+    <div class="col-sm-1">
+        <h2 class="or">OR</h2>
+    </div>
+    <div class="col-sm-4">
+        <div class="signup-form">
+            <!--sign up form-->
+            <h2>New User Signup!</h2>
+            <form asp-action="Register" asp-controller="Account">
+                <input type="text" asp-for="Register.FirstName" placeholder="First Name" />
+                <input type="text" asp-for="Register.LastName" placeholder="Last Name" />
+                <input type="Email" asp-for="Register.Email" placeholder="Email" />
+                <input type="date" asp-for="Register.BirthDate" />
+
+                <input type="text" asp-for="Register.Username" placeholder="Username" />
+                <input type="password" asp-for="Register.Password" placeholder="Password"/>
+
+                <button type="submit" class="btn btn-default">Signup</button>
+            </form>
+        </div><!--/sign up form-->
+    </div>
+</div>

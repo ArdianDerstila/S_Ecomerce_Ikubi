@@ -1,0 +1,6 @@
+﻿@model IEnumerable<eCommerce.Service.Models.Product>
+
+@foreach (var item in Model)
+{
+    @await Html.PartialAsync("_ProductPartial", item)
+}

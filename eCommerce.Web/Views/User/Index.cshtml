@@ -1,0 +1,74 @@
+﻿@using eCommerce.Data.Utils.PartialPermissions
+@*@model eCommerce.Web.Models.HomeModel*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-sm-3">
+        <div class="left-sidebar">
+            <div class="panel-group category-products" id="accordian">
+                @if ((await AuthorizationService.AuthorizeAsync(User, Permissions.User.Edit)).Succeeded)
+                {
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a href="">Users</a></h4>
+                        </div>
+                    </div>
+                }
+
+
+                @if ((await AuthorizationService.AuthorizeAsync(User, Permissions.Category.Edit)).Succeeded)
+                {
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a href="">Categories</a></h4>
+                        </div>
+                    </div>
+                }
+
+
+                @if ((await AuthorizationService.AuthorizeAsync(User, Permissions.Product.Edit)).Succeeded)
+                {
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a href="">Products</a></h4>
+                        </div>
+                    </div>
+                }
+
+
+
+
+                @if ((await AuthorizationService.AuthorizeAsync(User, Permissions.User.Profile)).Succeeded)
+                {
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a href="">My Profile</a></h4>
+                        </div>
+                    </div>
+                }
+
+
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a href="@Url.Action("Logout","Account")">Logout</a></h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-sm-9 padding-right">
+        <div class="features_items">
+            <!--features_items-->
+            @*@await Html.PartialAsync("_ProductsPartial", Model.Products)*@
+
+        </div><!--features_items-->
+
+    </div>
+</div>

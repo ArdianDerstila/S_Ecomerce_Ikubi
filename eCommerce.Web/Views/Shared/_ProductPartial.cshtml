@@ -1,0 +1,25 @@
+﻿@model eCommerce.Service.Models.Product
+
+<div class="col-sm-4">
+    <div class="product-image-wrapper">
+        <div class="single-products">
+            <div class="productinfo text-center">
+                <a href="@Url.Action("Detail","Product",new { id=Model.Id})">
+                    <img src="~/images/shop/1.jpg" alt="" />
+                </a>
+             
+                <h2>$@Model.Price</h2>
+                <p>@Model.Title</p>
+                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+            </div>
+            @*<div class="product-overlay">
+                <div class="overlay-content">
+                    <h2>$56</h2>
+                    <p>Easy Polo Black Edition</p>
+                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>*@
+        </div>
+        
+    </div>
+</div>

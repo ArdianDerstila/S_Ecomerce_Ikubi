@@ -1,0 +1,14 @@
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\bin\Release\netcoreapp3.0\eCommerce.Repository.deps.json
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\bin\Release\netcoreapp3.0\eCommerce.Repository.dll
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\bin\Release\netcoreapp3.0\eCommerce.Repository.pdb
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\bin\Release\netcoreapp3.0\eCommerce.Data.dll
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\bin\Release\netcoreapp3.0\eCommerce.Entity.dll
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\bin\Release\netcoreapp3.0\eCommerce.Data.pdb
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\bin\Release\netcoreapp3.0\eCommerce.Entity.pdb
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\obj\Release\netcoreapp3.0\eCommerce.Repository.csproj.AssemblyReference.cache
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\obj\Release\netcoreapp3.0\eCommerce.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\obj\Release\netcoreapp3.0\eCommerce.Repository.AssemblyInfoInputs.cache
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\obj\Release\netcoreapp3.0\eCommerce.Repository.AssemblyInfo.cs
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\obj\Release\netcoreapp3.0\eCommerce.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\obj\Release\netcoreapp3.0\eCommerce.Repository.dll
+C:\Users\Anonymous\Desktop\SimpleEcommerce\eCommerce.Web\eCommerce.Repository\obj\Release\netcoreapp3.0\eCommerce.Repository.pdb
